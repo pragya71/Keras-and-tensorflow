@@ -1,0 +1,21 @@
+Keras and TensorFlow are among the most popular frameworks when it comes to Deep Learning .
+
+TensorFlow & Keras
+TensorFlow is an end-to-end open-source platform for machine learning. It’s a comprehensive and flexible ecosystem of tools, libraries and other resources that provide workflows with high-level APIs. The framework offers various levels of concepts for you to choose the one you need to build and deploy machine learning models.
+
+For instance, if you need to do some large machine learning tasks, you can use the Distribution Strategy API in order to perform distributed hardware configurations and if you need a full production machine learning pipeline, you can simply use TensorFlow Extended (TFX). Some of the salient features are described below:
+
+Easy Model Building: TensorFlow offers multiple levels of abstraction to build and train models. 
+Robust ML Production Anywhere: TensorFlow lets you train and deploy your model easily, no matter what language or platform you use. 
+Powerful Experimentation For Research: TensorFlow gives you flexibility and control with features like the Keras Functional API and Model Subclassing API for the creation of complex topologies.
+ Keras is a high-level neural networks library that is running on the top of TensorFlow, CNTK, and Theano. Using Keras in deep learning allows for easy and fast prototyping as well as running seamlessly on CPU and GPU. This framework is written in Python code which is easy to debug and allows ease for extensibility.
+ User-Friendly: Keras has a simple, consistent interface optimized for common use cases which provides clear and actionable feedback for user errors.
+Modular and Composable: Keras models are made by connecting configurable building blocks together, with few restrictions.
+Easy To Extend: With the help of Keras, you can easily write custom building blocks for new ideas and researches.
+Easy To Use: Keras offers consistent & simple APIs which helps in minimizing the number of user actions required for common use cases, also it provides clear and actionable feedback upon user error.
+EXAMPLE :
+# example of tf.keras python idiom
+import tensorflow as tf
+# use keras API
+model = tf.keras.Sequential()
+...
